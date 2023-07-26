@@ -14,15 +14,15 @@ const checkCarId = async (req, res, next) => {
 }};
 
 const checkCarPayload = (req, res, next) => {
-  // DO YOUR MAGIC
+  next();
 };
 
 const checkVinNumberValid = (req, res, next) => {
-  // DO YOUR MAGIC
+  next();
 };
 
 const checkVinNumberUnique = (req, res, next) => {
-  // DO YOUR MAGIC
+  next();
 };
 
 module.exports = {
