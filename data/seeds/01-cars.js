@@ -1,7 +1,7 @@
 // STRETCH
 const cars = [
     {
-        vin: "1111111111111",
+        vin: "5FNRL382X7B001853",
         make: "toyota",
         model: "prius",
         mileage: 215000,
@@ -9,14 +9,14 @@ const cars = [
         transmission: 'manual'
     }, 
     {
-        vin: "1111111111112",
+        vin: "1G4GJ11Y9HP422546",
         make: "toyota",
         model: "corolla",
         mileage: 115000,
         title: 'salvage'
     },
     {
-        vin: "1111111111113",
+        vin: "JHMSZ542XDC028494",
         make: "ford",
         model: "focus",
         mileage: 15000
