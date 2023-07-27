@@ -29,7 +29,12 @@ router.post(
     checkVinNumberValid, 
     checkVinNumberUnique, 
     async (req, res, next) => {
-        res.json('posting new car');
+        try {
+            const car = await Car.create(req.body);
+            res.status(201).json(car);
+        } catch (err) {
+            next(err);
+        }
 });
 
 module.exports = router;
